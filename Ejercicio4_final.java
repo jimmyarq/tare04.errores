@@ -1,3 +1,11 @@
+// Se crea un objeto Scanner para entrada del usuario
+// Se coloca el método equals para comparar en reemplazando ==
+// equals en lugar de ==
+// Se agrega break después de cada case
+// Se cambia el nombre de "tijera" a "tijeras", para el input del usuario
+// Se agrega default case y un break para manejar entradas inválidas
+
+
 package mx.generation;
 import java.util.Scanner;
 
@@ -40,7 +48,7 @@ public class Codigo4 {
 
                 default:
                     break; 
-        // Se agrega default case y un break para entradas inválidas
+        // Se agrega default case y un break para manejar entradas inválidas
             }
             System.out.println("Gana el jugador " + g);
         }
